@@ -1,0 +1,80 @@
+/* Slider Container */
+.slider-container {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background: #0a0a0a;
+    overflow: hidden;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-out;
+}
+
+/* Individual Slide */
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    /*height: auto;*/
+    height: 75%;
+}
+
+/* Navigation Buttons */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    z-index: 2;
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+/* Optional: Customize button styles */
+.prev-button:focus,
+.next-button:focus {
+    outline: none;
+}
+
+/* Indicator Dots */
+.indicator-container {
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom spacing as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px; /* Adjust the spacing between dots as needed */
+    cursor: pointer;
+}
+
+.active-indicator {
+    background-color: coral;
+}

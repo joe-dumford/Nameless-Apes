@@ -1,0 +1,65 @@
+.merch-page {
+    background-color: #060606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    margin-bottom: 0;
+}
+
+.merch-header {
+    color: cornflowerblue;
+    font-family: "Dosis", serif;
+    padding: 20px 0;
+    margin-top: 95px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-details {
+    margin-top: 10px;
+    color: cornflowerblue;
+    font-family: "Dosis", serif;
+}
+
+.card-details h3 {
+    font-size: 1.2rem;
+    color: cornflowerblue;
+    font-family: "Dosis", serif;
+}
+
+.card-details p {
+    font-size: 1rem;
+    color: cornflowerblue;
+    font-family: "Dosis", serif;
+}
+
+.merch-footer {
+    width: 100%;
+    max-height: 20vh;
+    background-color: #060606;
+    padding: 20px 0;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: "Dosis", serif;
+}
+
+
