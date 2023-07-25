@@ -21,7 +21,7 @@ const MoreContent = () => {
                                             <div className="frame-heading"><p>MERCH</p></div>
                                         </Link>
                                         <div className="frame-body">
-                                            <p> February 5, 2023 </p>
+                                            <p> February 12, 2023 </p>
                                             <p>STUFF THAT ROCKS</p>
                                             <p>
                                                 Gear up in Nameless Apes merch and rock the world with style.
