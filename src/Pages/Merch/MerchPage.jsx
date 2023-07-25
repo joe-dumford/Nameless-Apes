@@ -10,7 +10,7 @@ const MerchPage = () => {
     return (
         <div className="merch-page">
             <NavBar />
-            <h1 className="merch-header">Merch Store</h1>
+            <h1 className="merch-header">Merchandise Store</h1>
             <div className="cards-container">
                 {merchData.map((item) => (
                     <Card
