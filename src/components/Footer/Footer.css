@@ -1,11 +1,12 @@
-.Foot{
+.Foot {
     position: relative;
 }
-.Footer{
+.Footer {
     margin-bottom: 200px;
     background-color: #06060600;
 }
-.Footer-real{
+
+.Footer-real {
     position: fixed;
     bottom: 0;
     z-index: -1;
@@ -16,21 +17,24 @@
     justify-content: center;
     align-items: center;
 }
-.Footer-holder{
+
+.Footer-holder {
     height: 100%;
     padding: 40px 0;
 
 }
 
-.Footer-center{
+.Footer-center {
     margin: auto;
 }
-.Footer-icons{
+
+.Footer-icons {
     display: flex;
     justify-content: center;
 align-items: center;
 }
-.Footer-icons>i{
+
+.Footer-icons>i {
     font-size: 20px;
     padding: 10px;
     color: #ffffffbf;
@@ -41,13 +45,15 @@ align-items: center;
     cursor: pointer;
     transition:all 0.2s;
 }
-.footer-copywrite{
+
+.footer-copywrite {
     margin-top: 20px;
     font-size: 14px;
     color: rgba(240, 240, 240, 0.58);
     text-align: center;
 }
-.Footer-icons>i:hover{
+
+.Footer-icons>i:hover {
     font-size: 20px;
     padding: 10px;
     color: #ffffffbf;

@@ -9,7 +9,6 @@
     overflow: hidden;
     background-color: #fff;
     transition: transform 0.2s ease-in-out;
-
     /* Adjust the card size as needed for responsiveness */
     /*width: 300px;*/
     max-width: 75% !important;
@@ -37,6 +36,7 @@
     font-size: 1.2rem;
     margin: 0;
     color: #555;
+    overflow: hidden;
 }
 
 /* CSS for Responsiveness */
@@ -55,3 +55,26 @@
     }
 }
 
+/* Custom CSS for hiding and showing description */
+.description-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.description-text {
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: height 0.2s ease-in-out;
+}
+
+.description-text.expanded {
+    height: auto;
+    max-height: 150px; /* Adjust this value to control the maximum expanded height */
+    overflow-y: auto; /* Add this property to enable scrolling if the description exceeds the allotted height */
+}
+
+.read-more {
+    color: #007bff;
+    cursor: pointer;
+}
