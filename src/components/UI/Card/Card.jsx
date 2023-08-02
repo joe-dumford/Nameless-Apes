@@ -31,7 +31,7 @@ const Card = ({ image, title, price, description }) => {
                         ▲
                     </span>
                 )}
-                {!isDescriptionExpanded && <p>Price: ${price}</p>}
+                {!isDescriptionExpanded && price !== undefined && <p>Price: ${price}</p>}
             </div>
         </div>
     );

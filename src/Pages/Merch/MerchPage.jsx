@@ -17,8 +17,8 @@ const MerchPage = () => {
                         key={item.id}
                         title={item.title}
                         image={item.image}
-                        price={item.price}
                         description={item.description}
+                        price={item.price}
                     />
                 ))}
             </div>

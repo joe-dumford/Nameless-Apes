@@ -74,7 +74,7 @@
     overflow-y: auto; /* Add this property to enable scrolling if the description exceeds the allotted height */
 }
 
-.read-more {
+.read-more:hover {
     color: #007bff;
     cursor: pointer;
 }
